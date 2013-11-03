@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1383255899 source:c:\users\alejandro  reyes\desktop\simulacion2\main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+

@@ -27,8 +27,10 @@ int main()
             if (num > mayor)
                 {mayor = num;}
 
-            if (num < menor)
-                {menor = num;}
+            else if  (num < menor)
+               {menor = num;}
+
+
 
                 cout <<"Desea continuar...:  ";
                 respuesta = getche ();
@@ -42,8 +44,9 @@ int main()
 
         cout <<"El total de intentos fue:"<< "\t" <<cnum<<"\n";
         cout <<"El total de numeros pares fue:"<< "\t" <<cpar<<"\n";
-        cout <<"El numero maximo es:"<<mayor<<"\n";
-        cout <<"El numero minimo es:"<<menor<<"\n";
+        cout<<"\n";
+        cout <<"El numero mayor  es:"<<"  \t"<<mayor<<"\n";
+        cout <<"El numero menor  es:"<<"  \t"<<menor<<"\n";
 
     return 0;
 }

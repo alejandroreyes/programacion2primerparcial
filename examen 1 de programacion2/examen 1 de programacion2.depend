@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1383261449 source:c:\users\alejandro  reyes\desktop\examen 1 de programacion2\main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+
